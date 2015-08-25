@@ -18,3 +18,6 @@ def deep_reverse(l):
         if is_list(i):
             deep_reverse(i)
     return l
+	
+p = [1, [2, 3, [4, [5, 6]]]]
+#>>> [[[[6, 5], 4], 3, 2], 1]
